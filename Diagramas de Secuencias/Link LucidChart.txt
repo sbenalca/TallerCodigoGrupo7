@@ -1,0 +1,3 @@
+https://app.lucidchart.com/invitations/accept/774a6c56-b7c1-400a-8e89-aab743445af4
+
+Para la realización del diagrama de secuencias de atender paciente, se omitieron los procesos de tipos de pagos puesto que consideramos que eso debería ser un diagrama aparte
