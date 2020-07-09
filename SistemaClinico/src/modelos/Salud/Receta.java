@@ -5,10 +5,21 @@
  */
 package modelos.Salud;
 
+import java.time.LocalDateTime;
+
 /**
  *
  * @author aspoveda
  */
 public class Receta {
-    
+
+    protected LocalDateTime fecha;
+    protected Medicamento medicamento;
+    protected PlanNutricional planNutricional;
+
+    public Receta() {
+        medicamento = new Medicamento();
+        planNutricional = new PlanNutricional();
+    }
+
 }

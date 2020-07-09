@@ -5,10 +5,16 @@
  */
 package modelos.Salud;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author aspoveda
  */
 public class HistoriaClinica {
-    
+
+    protected int nro;
+    protected ArrayList enfermedades;
+    protected ArrayList alergias;
+    protected ArrayList otros;
 }

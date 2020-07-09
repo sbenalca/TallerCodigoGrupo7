@@ -5,10 +5,19 @@
  */
 package modelos.Usuarios;
 
+import modelos.Salud.Cita;
+
 /**
  *
  * @author aspoveda
  */
-public class Secretaria {
-    
+public class Secretaria extends Persona {
+
+    public void verificarCita(Cita cita) {
+
+    }
+
+    public void agendarCita(Cita cita) {
+
+    }
 }

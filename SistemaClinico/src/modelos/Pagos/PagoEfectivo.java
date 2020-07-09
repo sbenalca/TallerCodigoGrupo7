@@ -5,10 +5,19 @@
  */
 package modelos.Pagos;
 
+import interfaces.Pago;
+
 /**
  *
  * @author aspoveda
  */
-public class PagoEfectivo {
-    
+public class PagoEfectivo implements Pago {
+
+    protected float monto;
+
+    @Override
+    public void realizarPago(float monto) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

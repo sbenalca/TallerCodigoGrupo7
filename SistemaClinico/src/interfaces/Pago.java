@@ -10,5 +10,5 @@ package interfaces;
  * @author aspoveda
  */
 public interface Pago {
-    
+    public void realizarPago(float monto);
 }

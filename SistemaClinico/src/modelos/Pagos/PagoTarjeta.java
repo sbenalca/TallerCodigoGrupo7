@@ -5,10 +5,24 @@
  */
 package modelos.Pagos;
 
+import interfaces.Pago;
+import java.util.Date;
+
 /**
  *
  * @author aspoveda
  */
-public class PagoTarjeta {
-    
+public class PagoTarjeta implements Pago {
+
+    protected float monto;
+    protected String numero;
+    protected Date expira;
+    protected String propietario;
+    protected String banco;
+
+    @Override
+    public void realizarPago(float monto) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

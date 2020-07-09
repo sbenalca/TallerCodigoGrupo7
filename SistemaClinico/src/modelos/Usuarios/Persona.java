@@ -5,10 +5,32 @@
  */
 package modelos.Usuarios;
 
+import java.util.Date;
+
 /**
  *
  * @author aspoveda
  */
 public class Persona {
-    
+
+    protected String usuario;
+    protected String clave;
+    protected String nombre;
+    protected String apellido;
+    protected String cedula;
+    protected String direccion;
+    protected Date fechaNac;
+
+    //Iniciar sesion
+    public boolean logIn() {
+
+        return false;
+
+    }
+
+    //Cerrar sesion
+    public boolean logOut() {
+        return false;
+
+    }
 }

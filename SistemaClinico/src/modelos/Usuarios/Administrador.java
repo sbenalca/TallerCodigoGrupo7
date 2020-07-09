@@ -9,6 +9,14 @@ package modelos.Usuarios;
  *
  * @author aspoveda
  */
-public class Administrador {
-    
+public class Administrador extends Persona {
+
+    public void registraUsuario() {
+
+    }
+
+    public void aisgnarRol(Persona p) {
+
+    }
+
 }

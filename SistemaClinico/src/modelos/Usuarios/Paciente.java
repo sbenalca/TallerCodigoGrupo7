@@ -5,10 +5,27 @@
  */
 package modelos.Usuarios;
 
+import modelos.Salud.HistoriaClinica;
+import modelos.Salud.Receta;
+
 /**
  *
  * @author aspoveda
  */
-public class Paciente {
-    
+public class Paciente extends Persona {
+
+    protected String email;
+    protected Receta receta;
+    protected HistoriaClinica historia_clinica;
+
+    public Paciente() {
+        receta = new Receta();
+        historia_clinica = new HistoriaClinica();
+    }
+
+    public boolean solicitarCita() {
+        return false;
+
+    }
+
 }

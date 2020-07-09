@@ -10,5 +10,6 @@ package modelos.Salud;
  * @author aspoveda
  */
 public class PlanNutricional {
-    
+
+    protected String descripcion;
 }

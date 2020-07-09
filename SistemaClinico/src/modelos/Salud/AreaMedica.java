@@ -10,5 +10,8 @@ package modelos.Salud;
  * @author aspoveda
  */
 public class AreaMedica {
-    
+
+    protected String especialidad;
+    protected float costo;
+
 }
